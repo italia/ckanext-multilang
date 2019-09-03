@@ -20,7 +20,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/geosolutions/ckanext-multilang',
+    url='https://github.com/italia/ckanext-multilang',
 
     # Author details
     author='''Tobia Di Pisa''',

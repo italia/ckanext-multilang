@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/geosolutions-it/ckanext-multilang.svg?branch=master)](https://travis-ci.org/geosolutions-it/ckanext-multilang)
-
 # ckanext-multilang
 
 The ckanext-multilang CKAN's extension provides a way to localize your CKAN's title and description 
@@ -29,9 +27,9 @@ http://www.fsf.org/licensing/licenses/agpl-3.0.html
 
 The ckanext-multilang extension has been developed for CKAN 2.4 or later. In addition:
 
-* The CSW multilingual harvester provided by the ckanext-multilang extension requires the [ckanext-spatial plugin](https://github.com/ckan/ckanext-spatial) installed on CKAN (see the [WIKI](https://github.com/geosolutions-it/ckanext-multilang/wiki) for more details about that).
+* The CSW multilingual harvester provided by the ckanext-multilang extension requires the [ckanext-spatial plugin](https://github.com/italia/ckanext-spatial) installed on CKAN (see the [WIKI](https://github.com/geosolutions-it/ckanext-multilang/wiki) for more details about that).
 
-* The CSW multilingual harvester provided by the ckanext-multilang extension requires the [ckanext-geonetwork plugin](https://github.com/geosolutions-it/ckanext-geonetwork) installed on CKAN if you want to leverage on the advanced harvesting functionalities (see the [WIKI](https://github.com/geosolutions-it/ckanext-multilang/wiki#features) for more details about the multilang harvester).
+#* The CSW multilingual harvester provided by the ckanext-multilang extension requires the [ckanext-geonetwork plugin](https://github.com/geosolutions-it/ckanext-geonetwork) installed on CKAN if you want to leverage on the advanced harvesting functionalities (see the [WIKI](https://github.com/geosolutions-it/ckanext-multilang/wiki#features) for more details about the multilang harvester).
 
 ## Installation
 
@@ -44,7 +42,7 @@ To install ckanext-multilang:
      
 2. Go into your CKAN path for extension (like /usr/lib/ckan/default/src):
 
-    git clone https://github.com/geosolutions-it/ckanext-multilang.git
+    git clone https://github.com/italia/ckanext-multilang.git
     
     cd ckanext-multilang
     
@@ -81,7 +79,7 @@ To install ckanext-multilang:
 
 To install `ckanext-multilang` for development, activate your CKAN virtualenv and do:
 
-    git clone https://github.com/geosolutions-it/ckanext-multilang.git
+    git clone https://github.com/italia/ckanext-multilang.git
     
     cd ckanext-multilang
     
